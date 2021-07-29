@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionsApp", "ExceptionsApp\ExceptionsApp.csproj", "{B9FF5FCB-9130-4867-BDBA-980D9DE704E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionDatatypesTest", "ExceptionDatatypesTest\ExceptionDatatypesTest.csproj", "{852DC864-2FDC-41E9-92AC-156D25A7F1BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B9FF5FCB-9130-4867-BDBA-980D9DE704E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9FF5FCB-9130-4867-BDBA-980D9DE704E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9FF5FCB-9130-4867-BDBA-980D9DE704E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{852DC864-2FDC-41E9-92AC-156D25A7F1BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{852DC864-2FDC-41E9-92AC-156D25A7F1BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{852DC864-2FDC-41E9-92AC-156D25A7F1BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{852DC864-2FDC-41E9-92AC-156D25A7F1BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
