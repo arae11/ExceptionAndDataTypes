@@ -24,12 +24,5 @@ namespace ExceptionDatatypesTest
         {
             Assert.That(()=> Program.Grade(mark), Throws.TypeOf<ArgumentOutOfRangeException>().With.Message.Contains("Allowed range of 0-100"));
         }
-
-        [TestCase(400)]
-        [TestCase(101)]
-        public void WhenMarkIsGreaterThanOneHundred_Grade_ThrowsAnArgumentOutOfRangeException(int mark)
-        {
-            Assert.That(() => Program.Grade(mark), Throws.TypeOf<ArgumentOutOfRangeException>().With.Message.Contains("Allowed range of 0-100"));
-        }
     }
 }

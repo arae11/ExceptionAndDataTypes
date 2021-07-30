@@ -8,12 +8,6 @@ namespace ExceptionsApp
     {
         public static void Main(string[] args)
         {
-            var result = 5.5 / 5;
-            var myInt = 5;
-            double myNum = myInt;
-
-            sbyte num = SByte
-
             //int anInt = 3; // explicitly typed
             //var vInt = 3; // impiecitly typed
             //var v2Int = vInt; //implicitly typed
